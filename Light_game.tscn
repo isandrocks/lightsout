@@ -1,0 +1,333 @@
+[gd_scene load_steps=5 format=3 uid="uid://bplrsb5mucn3e"]
+
+[ext_resource type="Material" uid="uid://o61sjaeuxkoi" path="res://Assets/BG_mat.tres" id="1_a80tq"]
+[ext_resource type="Script" path="res://Light_game.gd" id="1_cb7hy"]
+[ext_resource type="Texture2D" uid="uid://b8hap6232wsfe" path="res://Assets/Img/Sprites/Lights/Light_Button_off.png" id="3_7m0nv"]
+[ext_resource type="Texture2D" uid="uid://cnt41mrhj0r4e" path="res://Assets/Img/Sprites/Lights/Light_Button_on.png" id="4_rgctc"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_cb7hy")
+
+[node name="BackGround" type="ColorRect" parent="."]
+material = ExtResource("1_a80tq")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -204.0
+offset_top = -204.5
+offset_right = 204.0
+offset_bottom = 204.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="r1c1" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_top = 0.5
+offset_right = 81.0
+offset_bottom = 81.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r1c2" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 0.5
+offset_right = 162.0
+offset_bottom = 81.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r1c3" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 0.5
+offset_right = 243.0
+offset_bottom = 81.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r1c4" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 243.0
+offset_top = 0.5
+offset_right = 324.0
+offset_bottom = 81.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r1c5" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 0.5
+offset_right = 405.0
+offset_bottom = 81.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r2c1" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_top = 81.5
+offset_right = 81.0
+offset_bottom = 162.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r2c2" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 81.5
+offset_right = 162.0
+offset_bottom = 162.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r2c3" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 81.5
+offset_right = 243.0
+offset_bottom = 162.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r2c4" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 243.0
+offset_top = 81.5
+offset_right = 324.0
+offset_bottom = 162.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r2c5" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 81.5
+offset_right = 405.0
+offset_bottom = 162.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r3c1" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_top = 162.5
+offset_right = 81.0
+offset_bottom = 243.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r3c2" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 162.5
+offset_right = 162.0
+offset_bottom = 243.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r3c3" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 162.5
+offset_right = 243.0
+offset_bottom = 243.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r3c4" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 243.0
+offset_top = 162.5
+offset_right = 324.0
+offset_bottom = 243.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r3c5" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 162.5
+offset_right = 405.0
+offset_bottom = 243.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r4c1" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_top = 243.5
+offset_right = 81.0
+offset_bottom = 324.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r4c2" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 243.5
+offset_right = 162.0
+offset_bottom = 324.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r4c3" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 243.5
+offset_right = 243.0
+offset_bottom = 324.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r4c4" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 243.0
+offset_top = 243.5
+offset_right = 324.0
+offset_bottom = 324.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r4c5" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 243.5
+offset_right = 405.0
+offset_bottom = 324.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r5c1" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_top = 324.5
+offset_right = 81.0
+offset_bottom = 405.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r5c2" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 324.5
+offset_right = 162.0
+offset_bottom = 405.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r5c3" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 324.5
+offset_right = 243.0
+offset_bottom = 405.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r5c4" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 243.0
+offset_top = 324.5
+offset_right = 324.0
+offset_bottom = 405.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="r5c5" type="TextureButton" parent="Panel"]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 324.5
+offset_right = 405.0
+offset_bottom = 405.5
+toggle_mode = true
+texture_normal = ExtResource("3_7m0nv")
+texture_pressed = ExtResource("4_rgctc")
+
+[node name="Reset" type="Button" parent="."]
+anchors_preset = -1
+anchor_left = 0.245
+anchor_top = 0.057
+anchor_right = 0.245
+anchor_bottom = 0.057
+offset_left = -116.0
+offset_top = -0.220001
+offset_right = -65.0
+offset_bottom = 30.78
+text = "Reset"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+texture_filter = 4
+anchors_preset = -1
+anchor_left = 0.75
+anchor_top = 0.057
+anchor_right = 0.75
+anchor_bottom = 0.057
+offset_left = 39.9999
+offset_top = -2.22
+offset_right = 128.0
+offset_bottom = 163.78
+text = "..***	...+.
+.*.*. 	.+..+
+.**.*	+....
+*...* 	...++
+*.**.	....+
+**.**	..+..
+***..	.+..."
+
+[connection signal="pressed" from="Panel/r1c1" to="." method="_on_r1c1_pressed"]
+[connection signal="pressed" from="Panel/r1c2" to="." method="_on_r1c2_pressed"]
+[connection signal="pressed" from="Panel/r1c3" to="." method="_on_r1c3_pressed"]
+[connection signal="pressed" from="Panel/r1c4" to="." method="_on_r1c4_pressed"]
+[connection signal="pressed" from="Panel/r1c5" to="." method="_on_r1c5_pressed"]
+[connection signal="pressed" from="Panel/r2c1" to="." method="_on_r2c1_pressed"]
+[connection signal="pressed" from="Panel/r2c2" to="." method="_on_r2c2_pressed"]
+[connection signal="pressed" from="Panel/r2c3" to="." method="_on_r2c3_pressed"]
+[connection signal="pressed" from="Panel/r2c4" to="." method="_on_r2c4_pressed"]
+[connection signal="pressed" from="Panel/r2c5" to="." method="_on_r2c5_pressed"]
+[connection signal="pressed" from="Panel/r3c1" to="." method="_on_r3c1_pressed"]
+[connection signal="pressed" from="Panel/r3c2" to="." method="_on_r3c2_pressed"]
+[connection signal="pressed" from="Panel/r3c3" to="." method="_on_r3c3_pressed"]
+[connection signal="pressed" from="Panel/r3c4" to="." method="_on_r3c4_pressed"]
+[connection signal="pressed" from="Panel/r3c5" to="." method="_on_r3c5_pressed"]
+[connection signal="pressed" from="Panel/r4c1" to="." method="_on_r4c1_pressed"]
+[connection signal="pressed" from="Panel/r4c2" to="." method="_on_r4c2_pressed"]
+[connection signal="pressed" from="Panel/r4c3" to="." method="_on_r4c3_pressed"]
+[connection signal="pressed" from="Panel/r4c4" to="." method="_on_r4c4_pressed"]
+[connection signal="pressed" from="Panel/r4c5" to="." method="_on_r4c5_pressed"]
+[connection signal="pressed" from="Panel/r5c1" to="." method="_on_r5c1_pressed"]
+[connection signal="pressed" from="Panel/r5c2" to="." method="_on_r5c2_pressed"]
+[connection signal="pressed" from="Panel/r5c3" to="." method="_on_r5c3_pressed"]
+[connection signal="pressed" from="Panel/r5c4" to="." method="_on_r5c4_pressed"]
+[connection signal="pressed" from="Panel/r5c5" to="." method="_on_r5c5_pressed"]
+[connection signal="pressed" from="Reset" to="." method="_on_reset_pressed"]
