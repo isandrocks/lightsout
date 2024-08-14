@@ -13,7 +13,6 @@ config_version=5
 config/name="lightsout"
 run/main_scene="res://Light_game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-boot_splash/image="res://Assets/Img/consavelogo-01.png"
 config/icon="res://icon.svg"
 
 [display]
